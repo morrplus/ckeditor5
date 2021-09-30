@@ -111,11 +111,20 @@
 					items: [
 						'heading',
 						'|',
+						'fontColor',
+						'fontFamily',
+						'fontSize',
 						'bold',
 						'italic',
+						'underline',
+						'strikethrough',
+						'subscript',
+						'superscript',
 						'link',
+						'highlight',
 						'bulletedList',
 						'numberedList',
+						'alignment',
 						'|',
 						'outdent',
 						'indent',
@@ -125,30 +134,19 @@
 						'mediaEmbed',
 						'undo',
 						'redo',
-						'imageUpload',
-						'fontColor',
-						'fontFamily',
-						'fontSize',
-						'horizontalLine',
-						'htmlEmbed',
+						'findAndReplace',
 						'codeBlock',
-						'code'
+						'sourceEditing'
 					]
 				},
 				language: 'en',
-				image: {
-					toolbar: [
-						'imageTextAlternative',
-						'imageStyle:inline',
-						'imageStyle:block',
-						'imageStyle:side'
-					]
-				},
 				table: {
 					contentToolbar: [
 						'tableColumn',
 						'tableRow',
-						'mergeTableCells'
+						'mergeTableCells',
+						'tableCellProperties',
+						'tableProperties'
 					]
 				},
 					licenseKey: '',
@@ -166,7 +164,7 @@
 				.catch( error => {
 					console.error( 'Oops, something went wrong!' );
 					console.error( 'Please, report the following error on https://github.com/ckeditor/ckeditor5/issues with the build id and the error stack trace:' );
-					console.warn( 'Build id: djlwsusbxa4p-sz2pykchcypl' );
+					console.warn( 'Build id: s3dw7ig5ts8c-dh6sw7cimbmr' );
 					console.error( error );
 				} );
 		</script>
